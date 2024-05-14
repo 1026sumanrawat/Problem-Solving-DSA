@@ -16,5 +16,4 @@ class Solution:
             return max(nums)
         memo = {}
         x = dp(nums, 0, memo)
-        y = dp(nums, 1, memo)
-        return max(x,y)
+        return x
